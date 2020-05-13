@@ -1,6 +1,7 @@
 const multer = require('multer');
 const express = require('express');
-const app = express()
+const app = express();
+const path = require('path');
 
 
 // const storage = multer.diskStorage({
